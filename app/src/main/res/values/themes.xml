@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base theme -->
+    <style name="Theme.DiceGame" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Dice-inspired colors -->
+        <item name="colorPrimary">@color/dice_red</item>
+        <item name="colorPrimaryDark">@color/dice_red_dark</item>
+        <item name="colorAccent">@color/dice_black</item>
+
+        <!-- Background like dice face -->
+        <item name="android:windowBackground">@color/dice_white</item>
+
+        <!-- Button styling -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+
+        <!-- Status & navigation bars -->
+        <item name="android:statusBarColor">@color/dice_red_dark</item>
+        <item name="android:navigationBarColor">@color/dice_red</item>
+
+        <!-- Text styling -->
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+    </style>
+
+    <!-- Custom TextView -->
+    <style name="CustomTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/dice_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

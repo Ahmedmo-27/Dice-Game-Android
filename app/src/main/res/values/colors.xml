@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dice_red">#B00000</color>
+    <color name="dice_red_dark">#7A0000</color>
+    <color name="dice_white">#FFFFFF</color>
+    <color name="dice_black">#000000</color>
+</resources>
